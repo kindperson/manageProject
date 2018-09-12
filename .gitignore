@@ -1,0 +1,33 @@
+*.class
+#要忽视的提交文件
+#package files
+
+*.war
+*.ear
+
+#kdiff3 ignore
+target/
+
+#eclipse ignore
+.settings/
+.project
+.classpath
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file
+
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#system ignore
+.DS_Store
+Thumbs.db
