@@ -4,3 +4,4 @@
 数据库:mysql
 构建工具：maven
 版本控制工具：git
+开发工具：intellij idea
