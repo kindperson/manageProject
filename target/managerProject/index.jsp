@@ -9,7 +9,7 @@
     <link href="common/bootStrap/css/bootstrap.css" rel="stylesheet">
     <!--  jquery必须在bootstrap.js前引用-->
     <script src="common/jquery/jquery-3.3.1.min.js"></script>
-    <script src="common/bootStrap/js/bootstrap.js"></script>
+    <script src="common/bootStrap/js/bootstrap.min.js"></script>
 
 </head>
 <body>
