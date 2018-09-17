@@ -7,7 +7,7 @@
     <!--启用spring的一些annotation  -->
     <context:annotation-config />
     <!-- 配置component所在的包，自动加载需要管理的Bean -->
-    <context:component-scan base-package="example" />
+    <context:component-scan base-package="org.manage.project" />
     <!-- 添加mybatis配置 -->
     <import resource="spring-mybatis.xml" />
 </beans>

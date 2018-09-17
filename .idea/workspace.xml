@@ -7,39 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a18b57e-05db-413c-8089-556d2dfae679" name="Default Changelist" comment="把mybatis整合到项目里面">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/app-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/app-custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/app-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/app-orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/app-purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/app-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/app-seagreen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/vendor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/faces/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/faces/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/faces/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/faces/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/faces/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/features.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/integration-asana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/integration-github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/integration-jira.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/integration-pivotal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/integration-trello.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/screen-completed-tasks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/screen-custom-chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/screen-milestone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/screen-open-tasks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/screen-sprint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/screen-task-status.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/screen-team-status.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/image/screenful/screen-timing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/vendor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/manageProjectSQL.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/mapper/org/manage/project/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/manage/project/common/base/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/manage/project/common/base/BaseParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/manage/project/common/base/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/manage/project/controller/sysManage/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/manage/project/controller/sysManage/SysUserParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/manage/project/dao/sysManage/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/manage/project/entity/sysManage/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/manage/project/service/impl/sysManage/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/manage/project/service/sysManage/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/org/manage/project/storage/sysManage/sysUserIndex.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
@@ -47,11 +26,27 @@
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../guangJieBa.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/common/bootStrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/common/bootStrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/controller/StudentParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/dao/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/pojo/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/service/impl/StudentsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/example/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/managerProject/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/managerProject/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/managerProject/WEB-INF/classes/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/managerProject/WEB-INF/classes/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/managerProject/WEB-INF/classes/example/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/managerProject/WEB-INF/statics/css/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/managerProject/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/managerProject/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/managerProject/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/managerProject/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/org/tianjh/Application.java" beforeDir="false" />
@@ -78,57 +73,71 @@
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="css" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="10" />
+          <entry key="html" value="8" />
+          <entry key="java" value="31" />
           <entry key="js" value="4" />
-          <entry key="jsp" value="6" />
+          <entry key="jsp" value="13" />
           <entry key="map" value="4" />
           <entry key="md" value="3" />
+          <entry key="otf" value="1" />
           <entry key="properties" value="5" />
-          <entry key="xml" value="31" />
+          <entry key="sql" value="1" />
+          <entry key="sysUserIndex" value="1" />
+          <entry key="xml" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="CSS" value="2" />
-          <entry key="JAVA" value="10" />
-          <entry key="JSP" value="6" />
+          <entry key="Font" value="1" />
+          <entry key="HTML" value="8" />
+          <entry key="JAVA" value="31" />
+          <entry key="JSP" value="13" />
           <entry key="JavaScript" value="4" />
           <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="5" />
+          <entry key="SQL" value="1" />
           <entry key="SourceMap" value="4" />
-          <entry key="XML" value="31" />
+          <entry key="XML" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
+          <entry key="dummy" value="11" />
           <entry key="gitignore" value="14" />
-          <entry key="java" value="477" />
-          <entry key="jsp" value="341" />
+          <entry key="html" value="19" />
+          <entry key="java" value="1609" />
+          <entry key="jsp" value="457" />
           <entry key="md" value="240" />
           <entry key="properties" value="33" />
-          <entry key="txt" value="84" />
-          <entry key="xml" value="251" />
+          <entry key="sql" value="587" />
+          <entry key="txt" value="90" />
+          <entry key="xml" value="642" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="477" />
-          <entry key="JSP" value="341" />
+          <entry key="HTML" value="19" />
+          <entry key="JAVA" value="1609" />
+          <entry key="JSP" value="457" />
           <entry key="Markdown" value="240" />
-          <entry key="PLAIN_TEXT" value="99" />
+          <entry key="PLAIN_TEXT" value="115" />
           <entry key="Properties" value="33" />
-          <entry key="XML" value="251" />
+          <entry key="SQL" value="599" />
+          <entry key="XML" value="630" />
         </counts>
       </usages-collector>
     </session>
@@ -136,24 +145,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/example/controller/IndexController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/service/impl/sysManage/SysUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="100">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/controller/sysManage/SysUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="23" column="65" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/org/manage/project/storage/sysManage/sysUserIndex.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1303">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="325">
+              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -161,71 +191,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Resources/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="37" column="64" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="64" />
+            <state relative-caret-position="212">
+              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="1475">
+              <caret line="59" column="58" lean-forward="true" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Resources/dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3175">
-              <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/example/controller/StudentParam.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Resources/mapper/org/manage/project/SysUserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding>
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-              </folding>
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/service/sysManage/SysUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="150">
-                <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="49" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="225">
+              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,6 +234,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -244,6 +242,7 @@
     <findStrings>
       <find>annotation-driven</find>
       <find>www.springframework.org/schema/mvc</find>
+      <find>ModularAdmin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -257,7 +256,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/test.css" />
         <option value="$PROJECT_DIR$/target/managerProject/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/Resources/log4j.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/Resources/jdbc.properties" />
@@ -266,17 +264,35 @@
         <option value="$PROJECT_DIR$/src/main/java/example/service/impl/StudentsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/Resources/mapper/studentMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/Resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/Resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/example/dao/StudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/Resources/mapper/StudentMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/Resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/example/controller/StudentParam.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/example/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/Resources/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" />
+        <option value="$PROJECT_DIR$/src/main/Resources/manageProjectSQL.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/org/manage/project/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/manage/project/entity/sysManage/SysUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/manage/project/common/base/BaseParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/manage/project/controller/sysManage/SysUserParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/manage/project/common/base/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/manage/project/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/manage/project/dao/sysManage/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/mapper/org/manage/project/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/manage/project/controller/sysManage/SysUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/org/manage/project/storage/sysManage/sysUserIndex" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/signup.html" />
+        <option value="$PROJECT_DIR$/src/main/Resources/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/Resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/manage/project/service/impl/SysManage/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/manage/project/service/impl/sysManage/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/org/manage/project/storage/sysManage/sysUserIndex.jsp" />
       </list>
     </option>
   </component>
@@ -331,11 +347,11 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -366,6 +382,90 @@
               <item name="manageProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="sysManage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,16 +484,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="statics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
@@ -404,18 +494,79 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="managerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="sysManage" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536903626968" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537170811112" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -425,27 +576,27 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="example.controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\view\org\manage\project\storage" />
+      <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\view\org" />
+      <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\statics\common\angular" />
+      <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\statics\common\jquery" />
+      <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\statics\common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\view" />
       <recent name="D:\uitProject\manageProject\src\main\webapp" />
       <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\statics\image" />
       <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\statics" />
       <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\statics\common\bootStrap\js" />
-      <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\statics\common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="example.service.impl" />
       <recent name="example.service" />
       <recent name="example.pojo" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\view\org" />
-      <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\statics\common\angular" />
-      <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\statics\common\jquery" />
-      <recent name="D:\uitProject\manageProject\src\main\webapp\WEB-INF\statics\common" />
-      <recent name="D:\uitProject\manageProject\src\main\Resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="example.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -548,7 +699,8 @@
       <workItem from="1536744873466" duration="10763000" />
       <workItem from="1536801545904" duration="3874000" />
       <workItem from="1536819699339" duration="8980000" />
-      <workItem from="1536895107869" duration="2301000" />
+      <workItem from="1536895107869" duration="4991000" />
+      <workItem from="1537146377184" duration="16012000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1536753249879</created>
@@ -599,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536827816288</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加前端模板">
+      <created>1536903823069</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536903823069</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25918000" />
+    <option name="totallyTimeSpent" value="44620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,7 +777,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -629,7 +788,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3177874" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3177874" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -663,10 +822,10 @@
     <MESSAGE value="spring mvc参数引入" />
     <MESSAGE value="引入bootstrap和angularjs" />
     <MESSAGE value="把mybatis整合到项目里面" />
-    <option name="LAST_COMMIT_MESSAGE" value="把mybatis整合到项目里面" />
+    <MESSAGE value="添加前端模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加前端模板" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/application_Context.xml" />
     <entry file="file://$PROJECT_DIR$/target/managerProject/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -693,107 +852,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/test.css" />
     <entry file="file://$PROJECT_DIR$/src/main/Resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/service/impl/StudentsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Resources/mybatis-config.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/mapper/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/pojo/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/common/jquery/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/common/bootStrap/js/bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/common/bootStrap/js/bootstrap.bundle.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/common/bootStrap/js/bootstrap.bundle.js.map" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/common/bootStrap/js/bootstrap.bundle.min.js.map" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/common/bootStrap/js/bootstrap.min.js.map" />
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/spring-mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" column="64" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="64" />
+        <state relative-caret-position="275">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="-15650">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3175">
-          <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
+        <state relative-caret-position="2150">
+          <caret line="86" column="70" lean-forward="true" selection-start-line="86" selection-start-column="70" selection-end-line="86" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -810,20 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -834,29 +914,305 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/app.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15650">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="180" column="41" selection-start-line="180" selection-start-column="41" selection-end-line="180" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="9" lean-forward="true" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/entity/sysManage/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="8" selection-end-column="43" />
+          <folding>
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/manageProjectSQL.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repo/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar!/org/springframework/ui/ModelMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/controller/sysManage/SysUserParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/common/base/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/dao/sysManage/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/common/base/BaseParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/common/base/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/org/manage/project/storage/sysManage/sysUserIndex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/example/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="275">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#781#782#0" expanded="true" />
             <element signature="e#811#812#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/fonts/FontAwesome.otf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/service/impl/StudentsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/mapper/org/manage/project/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/service/sysManage/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="59" column="58" lean-forward="true" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1303">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="325">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/service/impl/sysManage/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/manage/project/controller/sysManage/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/org/manage/project/storage/sysManage/sysUserIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.manage.project.dao.sysManage.SysUserMapper">
+    <resultMap id="BaseResultMap" type="org.manage.project.entity.sysManage.SysUser" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="user_name" property="userName" jdbcType="VARCHAR" />
+        <result column="real_name" property="realName" jdbcType="VARCHAR" />
+        <result column="password" property="password" jdbcType="VARCHAR" />
+        <result column="role_id" property="roleId" jdbcType="BIGINT" />
+        <result column="organization_id" property="organizationId" jdbcType="BIGINT" />
+        <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
+    </resultMap>
+    <insert id="inserSysUser" parameterType="org.manage.project.entity.sysManage.SysUser">
+       insert into
+        sys_user(id,user_name,real_name,password,role_id,organization_id,create_date)
+       value(
+        #{id},#{userName},#{realName},#{password},#{role_id},#{organizationId},#{createDate}
+       )
+    </insert>
+    <select id="selectList" parameterType="org.manage.project.controller.sysManage.SysUserParam" resultMap="BaseResultMap">
+        SELECT
+          id,user_name,real_name,password,role_id,organization_id,create_date
+        FROM sys_user
+        limit #{offset},#{pageSize}
+    </select>
+    <select id="selectCount" parameterType="org.manage.project.controller.sysManage.SysUserParam" resultType="java.lang.Integer">
+        SELECT
+          COUNT(1)
+        FROM sys_user
+    </select>
+
+</mapper>
