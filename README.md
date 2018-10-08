@@ -9,3 +9,8 @@ https://github.com/modularcode/modular-admin-html
 构建工具：maven
 版本控制工具：git
 开发工具：intellij idea
+
+
+2018-10-08
+1，注册功能实现
+2，登录功能实现

@@ -19,13 +19,23 @@ public class SysUserController {
     @Resource
     private SysUserService sysUserService;
 
+    /**
+     * 访问注册页面
+     * @param modelMap
+     * @return
+     */
     @RequestMapping(value = "/sysUserIndex",method ={RequestMethod.POST,RequestMethod.GET})
     public String sysUserIndex( ModelMap modelMap) {
         return "org/manage/project/storage/sysManage/sysUserIndex";
     }
+
+    /**
+     * 添加新用户
+     * @return
+     */
     @RequestMapping(value = "/inserSysUser",method ={RequestMethod.POST,RequestMethod.GET})
     @ResponseBody
-    public Boolean index(@RequestBody SysUser sysUser) {
+    public Boolean inserSysUser(@RequestBody SysUser sysUser) {
         return sysUserService.insertSysUser(sysUser);
     }
 
